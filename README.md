@@ -9,7 +9,7 @@ link do projeto no Netlify: https://origamidposicionamento.netlify.app/
 ## Clonando o repositório :rocket:
 ```bash
 # Clone este repositório
-$ git clone https://github.com/rafaellore/rafaellore.github.io.git
+$ git clone https://github.com/rafaellore/origamid-posicionamento.git
 
 # Acesse a pasta do projeto e abra os arquivos na sua máquina!
 ```
