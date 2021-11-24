@@ -1,0 +1,33 @@
+header {
+  display: grid;
+  justify-items: center;
+  gap: 60px;
+  padding: 60px;
+}
+
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.menu a {
+  padding: 15px 25px;
+  background-color: #fff;
+  border-radius: 4px;
+  color: #000;
+  text-transform: uppercase;
+  border: 2px solid transparent;
+  transition: 0.3s;
+}
+
+.menu a:hover {
+  border-color: #ee2211;
+}
+
+@media (max-width: 400px) {
+  .menu {
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+  }
+}

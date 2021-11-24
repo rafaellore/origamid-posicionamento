@@ -1,0 +1,56 @@
+.introducao {
+  display: grid;
+  align-content: center;
+  gap: 20px;
+  padding: 40px;
+  position: relative;
+}
+
+.introducao h1,
+.introducao p {
+  text-align: right;
+}
+
+.introducao h1 {
+  font-size: 30px;
+}
+
+.introducao a {
+  justify-self: end;
+  background-color: #ee2211;
+  padding: 15px 25px;
+  text-transform: uppercase;
+  color: #fff;
+  border-radius: 4px;
+  transition: 0.3s;
+}
+
+.introducao a:hover {
+  background-color: #c71e12;
+}
+
+.introducao::before {
+  content: "";
+  background-color: #ee2211;
+  width: 60px;
+  height: 4px;
+  position: absolute;
+  top: 0;
+  right: -30px;
+}
+
+@media (max-width: 400px) {
+  .introducao h1,
+  .introducao p {
+    text-align: left;
+  }
+  .introducao h1 {
+    font-size: 24px;
+  }
+  .introducao a {
+    place-self: center;
+  }
+  .introducao::before {
+    display: none;
+  }
+}

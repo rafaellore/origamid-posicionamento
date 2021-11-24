@@ -1,0 +1,49 @@
+.vantagens-titulo {
+  font-size: 64px;
+  text-align: right;
+  color: #c6c6c6;
+  background-image: url("../img/onda.svg");
+  margin: 40px;
+}
+
+.vantagens {
+  background-color: #fff;
+  padding: 40px;
+}
+
+.vantagens-item {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  padding: 20px;
+  border-left: 4px solid transparent;
+  transition: 0.3s;
+}
+
+.vantagens-item p {
+  margin-top: 10px;
+  grid-column: 2;
+  text-align: left;
+}
+
+.vantagens-item img {
+  margin-right: 20px;
+}
+
+.vantagens-item:nth-child(odd) {
+  background-color: #f7f7f7;
+}
+
+.vantagens-item:hover {
+  border-color: #ee2211;
+  cursor: pointer;
+}
+
+@media (max-width: 400px) {
+  .vantagens-titulo {
+    margin-top: 40px;
+    text-align: center;
+    font-size: 40px;
+  }
+  .vantagens {
+  }
+}
